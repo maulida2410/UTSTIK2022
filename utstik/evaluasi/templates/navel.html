@@ -1,0 +1,107 @@
+{% load static %}
+
+<body>
+  <input type="checkbox" id="check">
+  <label for="check">
+    <i class="fas fa-bars" id="btn"></i>
+    <i class="fas fa-times" id="cancel"></i>
+
+  </label>
+    <div class="sidebar">
+               <header>MARI BELAJAR MATEMATIKA</header>
+               <ul>
+                <li class="active">
+                  <a href="/home"><i class='fas fa-home'>HOME</i></a></li>                
+                  <li>
+                    <a href="#"><i class='fas fa-book-open'>SISTEM KOORDINAT</i></a>
+                    <ul>
+                     <li><a href="/materi"><i class='fas fa-book-reader'>Materi</i></a></li>
+                     <li><a href="/video"><i class='fas fa-chalkboard-teacher'>Video</i></a></li>
+                    </ul> 
+                  </li>
+                <li>
+                  <a href="#"><i class='fas fa-book-reader'>APPLICATION</i></a>
+                  <ul>
+                      <li><a href="/latihan"><i class='far fa-sticky-note'>Latihan</i></a></li>
+                      <li><a href="/evaluasi"><i class='far fa-clipboard'>Evaluasi</i></a></li>
+                      <li><a href="/aplikasi"><i class='far fa-file-alt'>Aplikasi</i></a></li>
+                    </ul>
+                  </li>
+                <li>
+                  <a href="/profile"><i class='fas fa-user-circle'>PROFILE</i></a></li>
+              
+               </ul>
+ </div>
+<div id="content">
+    <hr>
+    <h3>Evaluasi Letak tempat pada Denah</h3>
+    <hr>
+<p>
+  <img class="img-evaluasi" src="{% static 'img/evaluasi.png' %}" width="40%" />
+    1)	Pada  hari Minggu, Bila, Alya, dan Zila akan pergi ke tempat tujuannya masing-masing. Silahkan anda tentukan arah dan jalan yang akan mereka tempuh!</p>
+    <p>a. Bila ingin pergi ke   toko buku melalui jalan .... dan   ke arah ....</p>
+    <p>b. Alya  ingin pergi ke pasar melalui jalan ... dan ke arah ...</p>
+    <p>c. Zila ingin pergi ke rumah sakit  melalui jalan ... dan ke arah ....</p>
+<p>2) Dalam satu baris terdapat 25 rumah. Rumah Pak Adam dan Pak Derry terpisah 5 rumah. Rumah Bu Ninis posisinya tiga rumah sebelum rumah Pak Derry. Rumah Pak Adam bernomor 11. Jika nomor rumah Pak Adam lebih besar daripada nomor rumah Pak Derry, berapa nomor rumah Pak Adam?</p>
+
+<hr>
+<h3>Evaluasi Koordinat Letak benda</h3>
+<hr>
+<img class="img-kordi letak benda eval" src="{% static 'img/kordi letak benda eval.png' %}" style="float:center; margin-right:7px;" width="40%">
+<p>   1. Baju pada koordinat (2, 3).</p>
+<p>   2. Tas pada koordinat (3, 5).</p>
+<p>   3. Celana pada koordinat (1, 8).</p>
+<p>   4. Topi pada koordinat (6, 7).</p>
+<p>   5. Meja pada koordinat (7, 9).</p>
+<p>   6. Kursi pada koordinat (1, 4).</p>
+<p>   7. Rumah pada koordinat (8, 2).</p>
+<p>   8. Kipas pada koordinat (4, 6).</p>
+<p>   9. Pohon pada koordinat (1, 1).</p>
+<p>   10. Gelas pada koordinat (5, 8).</p>
+    
+<hr>
+<h3>Evaluasi Koordinat Letak tempat</h3>
+<hr>
+<img class="img-wilayah" src="{% static 'img/wilayah.png' %}" style="float:center; margin-right:7px;" width="50%">
+<p> Perhatikan peta Provinsi yang ada di Indonesia, Isilah titik-titik yang menyatakan letak provinsi tersebut.</p>
+<p>   1.	Medan (..., ...)</p>
+<p>   2.	Jambi (..., ...)</p>
+<p>   3.	Palembang (..., ...)</p>
+<p>   4.	Banten  (..., ...)</p>
+<p>   5.	Bandung (..., ....)</p>
+<p>   6.	Yogyakarta (..., ...)</p>
+<p>   7.	Surabaya (..., ...)</p>
+<p>   8.	Samarinda (..., ...)</p>
+<p>   9.	NTB (..., ...)</p>
+
+<hr>
+<h3>Evaluasi Koordinat Kartesius</h3>  
+<hr>
+<p> 1. Lengkapilah berikut ini sesuai dengan koordinat Kartesius di buku latihanmu!</p>
+    <img class="img-latihan koord.1" src="{% static 'img/wilayah.png' %}" style="float:center; margin-right:7px;" width="45%">
+<p>   a.	Koordinat A (-3, 5)</p>
+<p>   b.	Koordinat B (..., 4)</p>
+<p>   c.	Koordinat C (..., ...)</p>
+<p>   d.	Koordinat D (..., ...)</p>
+<p>   e.	Koordinat E (..., ...)</p>
+<p>   f.	Koordinat F (..., ...)</p>
+
+<br>
+<p>2. Tulislah koordinat titik A, B, dan C !</p>
+<img class="img-evaluasi3" src="{% static 'img/evaluasi3.png' %}" style="float:center; margin-right:7px;" width="40%">
+
+<p>3.	Tentukanlah letak koordinat titik A(1, 2), B(4, 5), C(3, 2), dan D(5, 2) pada bidang koordinat kartesius.</p>
+    
+<hr>
+<h3>Evaluasi Menggambar Bangun Datar melalui Titik Koordinat</h3>
+<hr>
+<p>1)	Gambarlah pada bidang koordinat berikut ini dan garislah titik-titiknya menjadi sebuah bangun datar!</p>
+    <img class="img-tabel" src="{% static 'img/tabel.png' %}" style="float:initial; margin-right:7px;" width="40%"></img>
+<p>2)	Gambarlah titik-titik E(–4, 2), G(3, 5), dan H(–4, 5). Tentukan koordinat titik F sehingga terbentuk bangun persegi panjang EFGH! 2)	Gambarlah titik-titik E(–4, 2), G(3, 5), dan H(–4, 5). Tentukan koordinat titik F sehingga terbentuk bangun persegi panjang EFGH! </p>
+<p>3)	Pada jajar genjang ABCD diketahui A(-5,4), B(2,4), C(3,-3), dan D(-4,-3) dan pada koordinat Cartesius!</p>
+<p>4)	Ditentukan layang-layang KLMN, dengan KM sumbu simetri. Koordinat titik L(3, 2), M(6,-1), dan N(3,-7).</p>
+<p>  a. Gambarkan layang-layang KLMN pada koordinat Cartesius!</p>
+<p>  b. Tentukan koordinat titik K!</p>
+
+
+</body>

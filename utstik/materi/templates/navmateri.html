@@ -1,0 +1,134 @@
+  {% load static %}
+  
+  <body>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+  
+    </label>
+      <div class="sidebar">
+                 <header>MARI BELAJAR MATEMATIKA</header>
+                 <ul>
+                  <li class="active">
+                    <a href="/home"><i class='fas fa-home'>HOME</i></a></li>                
+                    <li>
+                      <a href="#"><i class='fas fa-book-open'>SISTEM KOORDINAT</i></a>
+                      <ul>
+                       <li><a href="/materi"><i class='fas fa-book-reader'>Materi</i></a></li>
+                       <li><a href="/video"><i class='fas fa-chalkboard-teacher'>Video</i></a></li>
+                      </ul> 
+                    </li>
+                  <li>
+                    <a href="#"><i class='fas fa-book-reader'>APPLICATION</i></a>
+                    <ul>
+                        <li><a href="/latihan"><i class='far fa-sticky-note'>Latihan</i></a></li>
+                        <li><a href="/evaluasi"><i class='far fa-clipboard'>Evaluasi</i></a></li>
+                        <li><a href="/aplikasi"><i class='far fa-file-alt'>Aplikasi</i></a></li>
+                      </ul>
+                    </li>
+                  <li>
+                    <a href="/profile"><i class='fas fa-user-circle'>PROFILE</i></a></li>
+                
+                 </ul>
+   </div>
+    
+   <div id="content"></div>
+    <h2 align="center">SISTEM KOORDINAT</h2>
+<img class="img-images-photos-cover" src="{% static 'img/images-photos-cover.png' %}" style="display: block; float:initial; margin: auto;" width="45%"/>
+       <hr>
+       <img class="img-peta-konsep" src="{% static 'img/peta-konsep.png' %}" style="display: block; float:center; margin: auto;" width="45%"/>
+       <h3>Sekilas</h3>
+       <hr>
+       <p>       Kata sifat Kartesius mengacu pada ahli matematika dan filsuf Prancis René Descartes, yang menerbitkan gagasan ini pada tahun 1637. Itu ditemukan secara independen oleh Pierre de Fermat, yang juga bekerja dalam tiga dimensi, meskipun Fermat tidak mempublikasikan penemuan tersebut. Pendeta Prancis Nicole Oresme menggunakan konstruksi yang mirip dengan koordinat Kartesius jauh sebelum zaman Descartes dan Fermat. Baik Descartes dan Fermat menggunakan satu sumbu dalam perawatan mereka dan memiliki panjang variabel yang diukur dengan mengacu pada sumbu ini. Konsep menggunakan sepasang sumbu diperkenalkan kemudian, setelah La Géométrie Descartes diterjemahkan ke dalam bahasa Latin pada tahun 1649 oleh Frans van Schooten dan murid-muridnya. </p>
+        <p>Para komentator ini memperkenalkan beberapa konsep sambil mencoba mengklarifikasi gagasan yang terkandung dalam karya Descartes.
+         Pengembangan sistem koordinat Kartesius akan memainkan peran mendasar dalam pengembangan kalkulus oleh Isaac Newton dan Gottfried Wilhelm Leibniz. Deskripsi dua koordinat bidang itu kemudian digeneralisasikan menjadi konsep ruang vektor. Banyak sistem koordinat lain telah dikembangkan sejak Descartes, seperti koordinat kutub untuk bidang, dan koordinat bola dan silinder untuk ruang tiga dimensi. 
+         
+        </p>
+        <br>
+        <h3>Latar Belakang Masalah</h3>
+       <hr>
+       <p>
+        Dalam ilmu matematika, kita kerap mendengar istilah koordinat kartesius. Namun, apakah koordinat kartesius itu, bagaimana diagram dan titik kuadrannya?
+        Sistem koordinat kartesius adalah sistem koordinat berupa susunan garis dan titik dalam dua dimensi. Bahan ajar ini diperuntukkan siswa/i dalam mempelajari letak benda, mengenal koordinat posisi sebuah benda, dan menentukan posisi titik dalam sistem koordinat kartesius.
+          Adapun permasalahan yang dihadapi oleh siswa/i dalam mempelajari materi ini yaitu pada sub materi grafik karena kurang memahami konsep dari sumbu grafik (x dan y) dan tidak bisa menggambarkannya, lalu ada sub materi titik koordinat karena tidak paham dengan konsep jarak antar titik, kurang memahami pembacaan titik koordinat, sering tertukar antara x dan y, dan kurangnya ketelitian dalam menggambar titik koordinat, dan sub materi bangun datar dari suatu titik koordinat karena bingung menentukan titiknya, sulit memahami kekeliruan rumus, banyak tahap yang harus dilakukan untuk menentukan luas bangun datar, dan sulit dalam menentukan gambar dengan angka bilangan positif/negatif.
+         Bahan ajar ini diharapkan bisa menjadi wadah siswa/i untuk menambah pengetahuan dasar dari cabang ilmu matematika ini dan menerapkannya dalam kehidupan sehari-hari.    
+       </p>
+       <h3>Sistem Koordinat Kartesius</h3>
+       <hr>
+       <p>
+        Sistem koordinat kartesius adalah sistem koordinat yang menetapkan setiap titik secara unik dalam bidang dengan serangkaian koordinat numerik, yang merupakan jarak yang bertanda titik dari dua garis berorientasi tegak lurus tetap, diukur dalam satuan panjang yang sama. Setiap garis referensi disebut sumbu koordinat atau hanya sumbu (sumbu jamak) dari sistem, dan titik di mana mereka bertemu adalah asalnya, pada pasangan terurut (0,0). 
+       </p>
+       <p>
+        Koordinat juga dapat didefinisikan sebagai posisi proyeksi tegak lurus dari titik ke dua sumbu, yang dinyatakan sebagai jarak yang ditandatangani dari titik asal. Seseorang dapat menggunakan prinsip yang sama untuk menentukan posisi titik mana pun dalam ruang tiga dimensi dengan tiga koordinat Kartesius, jarak yang ditandai ke tiga bidang yang saling tegak lurus (atau, ekuivalen, dengan proyeksi tegak lurus ke tiga garis yang saling tegak lurus). 
+       </p>
+       <p>Secara umum, koordinat kartesius n (elemen ruang-n nyata) menentukan titik dalam ruang Euclidean berdimensi-n untuk setiap dimensi n. Koordinat ini sama, sampai tanda, dengan jarak dari titik ke n hyperplanes yang saling tegak lurus.</p>
+       <h3>A.	Membaca dan Menggambar Letak Benda pada Denah</h3>
+       <p>Coba perhatikan denah letak benda-benda di bawah ini!</p>
+       <img class="img-denah letak benda" src="{% static 'img/denah letak benda.png' %}" style="display:block; float:left; margin: auto;" width="30%"/>
+       <p>Apakah kalian dapat menjawab pertanyaan dengan benar? Jika ya, berarti kalian sudah paham bagaimana cara menunjukkan letak benda tersebut. Kamu dapat menggunakan banyak cara untuk menunjukkan letak benda nya. Misalnya, kamu menunjukkan letak televisi. Dapat ditunjukkan bahwa televisi terletak di sebelah utara jam dinding.</p>
+        <p>•Televisi terletak di sebelah barat radio</p>	
+        <p>•Tas terletak di sebelah barat papan tulis</p>
+        <p>•Radio terletak di sebelah timur televisi</p>
+        <p>•Papan tulis terletak di sebelah timur tas</p>
+        <p>•Lemari terletak di sebelah selatan radio</p>
+        
+        <h3>B. Koordinat</h3>
+        <p>     Koordinat adalah bilangan yang dipakai untuk menunjukkan lokasi suatu titik di garis permukaan atau ruang. Koordinat dapat memudahkan kita dalam menemukan letak benda.   
+            Dua garis bilangan yang diletakkan saling berpotongan tegak lurus pada bidang membentuk sudut siku-siku. Titik potong tersebut dinamakan titik O. Bidangnya dinamakan bidang bilangan. Titik-titik pada bidang itu ditentukan oleh pasangan bilangan (koordinat).</p>
+         <p>Bilangan pertama dalam pasangan itu menunjukkan seberapa jauh bergerak. Mulai dari titik O ke kanan atau ke kiri. Bilangan kedua menunjukkan berapa jauh bergerak. Mulai dari titik O ke atas atau ke bawah. Gerakan dari titik O ke kanan atau ke atas dinyatakan dengan bilangan positif. Gerakan dari titik O ke kiri atau ke bawah dinyatakan dengan bilangan negatif.</p>   
+        <img class="img-koordinat" src="{% static 'img/koordinat.png' %}" style="display:block; float:center; margin: auto;" width="25%"/>
+        <br>
+        <h4>B.1 Koordinat Letak Benda</h4>
+        <p>Kordinat dapat memudahkan kita menentukan letak suatu benda. Koordinat adalah bilangan yang dipakai untuk menunjukkan lokasi suatu titik di garis permukaan ruang.
+            <img class="img-letak benda" src="{% static 'img/letak benda.png' %}" style="float:center; margin-right:7px;" width="30%"/></p>
+        <p>Gambar planet yang kita tempati alias bumi terletak pada pertemuan antara angka 2 (sumbu horizontal) dan angka 1 (sumbu vertikal), dapat ditulis (2,1). <br> Gambar planet saturnus terletak pada pertemuan antara angka 3 (sumbu horizontal) dan angka 4 (sumbu vertikal), dapat ditulis (3, 4).<br>Gambar planet mars terletak pada pertemuan antara angka 5 (sumbu horizontal) dan angka 3 (sumbu vertikal), dapat ditulis (5, 3). <br> Gambar planet jupiter terletak pada pertemuan antara angka 6 (sumbu horizontal) dan angka 2 (sumbu vertikal), dapat ditulis (6, 2). <br>Gambar planet neptunus terletak pada pertemuan antara angka 8 (sumbu horizontal) dan angka 4 (sumbu vertikal), dapat ditulis (8, 4).</p>
+        <br>
+        <h4>B.2 Koordinat Letak Tempat pada Peta</h4>
+        <p>     Sebelumnya kamu telah belajar menentukan koordinat letak suatu benda. Sekarang, kamu kan mempelajari cara menentukan koordinat letak suatu tempat. Cara menentukan koordinat letak suatu tempat, sama seperti pada saat kamu menentukan koordinat letak suatu benda. 
+            Berdasarkan peta tersebut, kita dapatkan bahwa :
+            <img class="img-prov banten" src="{% static 'img/prov banten.png' %}" style="float:center; margin-right:7px;" width="50%"/></p>
+            <p>  1.	Bantarwatu terletak pada koordinat (3, 1)</p>
+            <p>  2.	Cilegon terletak pada koordinat (6, 5)</p>
+            <p>  3.	Serang terletak pada koordinat (8, 3)</p>
+            <p>  4.	Cikande terletak pada koordinat (12, 1)</p>
+            <br>
+        <h3>C. Koordinat Kartesius</h3> 
+        <p>          Koordinat kartesius  terdiri atas sumbu mendatar (sumbu-x) dan sumbu tegak (sumbu-y). Fungsi kedua sumbu tersebut untuk menentukan letak suatu titik. Titik-titik pada koordinat kartesius merupakan pasangan titik pada sumbu-x dan sumbu-y (x, y). Yang mana x disebut absis dan y disebut ordinat. Perpotongan antara sumbu-x dan sumbu-y di titik 0 (nol) disebut pusat koordinat.
+            Pada koordinat titik, sebuah garis pada arah mendatar (horizontal) disebut sumbu X atau absis dan sebuah garis pada arah tegak (vertikal) disebut sumbu Y atau ordinat. 
+          <img class="img-koord.karte" src="{% static 'img/koord.karte.png' %}" style="display:block; float:center; margin:auto;" width="40%"/>
+        </p><img class="img-kuadran 4 bagian" src="{% static 'img/kuadran 4 bagian.png' %}" style="display:block; float:center; margin:auto;" width="28%"/>
+        <p> Dua sumbu tersebut membagi bidang  menjadi 4 bagian yang disebut kuadran.
+            
+        </p>
+        <br>
+        <h3>D.	Menggambar Bangun Datar pada Bidang Koordinat</h3>
+        <p>Sebuah  bangun datar dapat digambar pada bidang kartesius apabila koordinat titik-titik sudutnya diketahui. Cara menggambar bangun datar pada bidang koordinat hampir sama dengan menentukan letak titik pada bidang koordinat. Hanya saja jika ingin membuat bangun datar maka ada langkah lanjutannya, yaitu setelah menentukan titik-titik tersebut kemudian titik-titik dihubungkan antara titik satu dengan titik lainnya dengan menggunakan garis sehingga membentuk bidang datar yang dikehendaki. Adapun langkah-langkahnya : </p>
+        <p>a)	Letakkan titik A, B, C, dan D pada bidang koordinat.</p>
+        <p>   Kemudian hubungkan titik A ke B, titik B ke C, titik C ke D dan titik D ke A. Sehingga bangun datar yang terbentuk adalah jajargenjang, seperti gambar di bawah ini.</p>
+        <p>b)	Letakkan titik E, F, G, dan H pada bidang koordinat.</p>
+        <p>    Kemudian hubungkan titik E ke F, titik F ke G, titik G ke H dan titik H ke E. Sehingga bangun datar yang terbentuk adalah persegi panjang, seperti gambar di bawah ini.</p>
+        <p>c)	Letakkan titik I, J, dan K pada bidang koordinat.</p>
+        <p>   Kemudian hubungkan titik I ke J, titik J ke K, titik K ke J. Sehingga bangun datar yang terbentuk adalah segitiga, seperti gambar di bawah ini.</p>
+            <img class="img-Bangun datar koordinat kartesius" src="{% static 'img/Bangun datar koordinat kartesius.png' %}" style="float:center; margin-right:7px;" width="35%"/>
+         <p>Pada gambar di samping, ABCD adalah suatu jajar genjang. Koordinat titik sudut nya :
+            A(2, 4) ; B(1, 1) ; C(5, 1) ; D(6, 4)
+                   EFGH adalah persegi pajang : E(-4, 2) ; F(-1, 2) ; G(-1,- 2) ; H(-4, -2)
+            IJK adalah segitiga : I(3, -1) ; J(2, -3) ; K(4, -3).
+            
+            </p>
+            <br>
+            <h3>KESIMPULAN</h3>
+            <hr>
+            <p>   1.	Denah atau peta dapat digunakan untuk menggambarkan letak benda. Dengan membaca denah atau peta kita dapat menentukan letak benda atau tempat.</p>
+            <p>   2.	Sistem koordinat kartesius adalah sistem koordinat yang menetapkan setiap titik secara unik dalam bidang dengan serangkaian koordinat numerik, yang merupakan jarak yang bertanda titik dari dua garis berorientasi tegak lurus tetap, diukur dalam satuan panjang yang sama.</p>
+            <p>   3.	Koordinat adalah bilangan yang dipakai untuk menunjukkan lokasi suatu titik di garis permukaan atau ruang. Koordinat dapat memudahkan kita dalam menemukan letak benda.</p>
+            <p>   4.	Koordinat adalah bilangan yang dipakai untuk menunjukkan lokasi suatu titik di garis permukaan ruang.</p>
+            <p>   5.	Cara memnentukan koordinat letak suatu tempat, sama seperti pada saat menentukan koordinat letak suatu benda.</p>
+            <p>   6.	Sistem koordinat kartesius  terdiri atas sumbu mendatar (sumbu-x) dan sumbu tegak (sumbu-y). </p>
+            <p>   7.	Sebuah  garis pada arah mendatar (horizontal) disebut sumbu X atau absis dan sebuah garis pada arah tegak (vertikal) disebut sumbu Y atau ordinat.</p>
+            <p>   8.	Sebuah  bangun datar dapat digambar pada bidang kartesius apabila koordinat titik-titik sudutnya diketahui.</p>
+                
+            
+    </div>
+</body>
